@@ -6,7 +6,9 @@ It also includes specialized functions for working with various numeric formats 
 
 This library is designed for efficiency, readability, and ease of use, providing a rich set of tools for developers working with C strings. Whether you're building applications, writing algorithms, or dealing with complex string data, `cStringsLibrary` offers the functionality you need.
 
-![cStrings Logo](https://github.com/user-attachments/assets/d4577c64-a6b6-4cf1-b820-edb8f7c272fa)
+<p align="center">
+  <img src="http://some_place.com/image.png](https://github.com/user-attachments/assets/d4577c64-a6b6-4cf1-b820-edb8f7c272fa" />
+</p>
 
 # **How to Use the `libcstr` Library**
 
