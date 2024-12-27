@@ -1,4 +1,4 @@
-### **cStringsLibrary: A Comprehensive String Manipulation Library in C**
+#### **cStringsLibrary: A Comprehensive String Manipulation Library in C**
 
 The `cStringsLibrary` is a versatile C library designed to provide a wide range of efficient and essential string manipulation functions. From basic operations such as string length, copying, and concatenation, to advanced features like string sorting, palindrome checks, and case conversions, this library aims to simplify string handling in C. 
 
@@ -7,6 +7,72 @@ It also includes specialized functions for working with various numeric formats 
 This library is designed for efficiency, readability, and ease of use, providing a rich set of tools for developers working with C strings. Whether you're building applications, writing algorithms, or dealing with complex string data, `cStringsLibrary` offers the functionality you need.
 
 ![cStrings Logo](https://github.com/user-attachments/assets/d4577c64-a6b6-4cf1-b820-edb8f7c272fa)
+
+#### **How to Use the `libcstr` Library**
+
+Using the `libcstr` library is simple and straightforward. Follow these steps to get started:
+
+## **1. Download the Library**
+To begin using the library, download the `libcstr.c` and `libcstr.h` files from the repository or your preferred source.
+
+## **2. Include the Header File**
+In your C program, include the `libcstr.h` header file to access all the functions provided by the library.
+
+```c
+#include "libcstr.h"
+```
+
+## **3. Compile the Code**
+If you're working with the `libcstr.c` file directly, ensure that it is included during compilation. For example, if you're using GCC, compile your program like this:
+
+```bash
+gcc -o myProgram myProgram.c libcstr.c
+```
+
+This command will compile both your source file (`myProgram.c`) and the `libcstr.c` file together, linking them to produce the final executable.
+
+## **4. Use the Functions**
+Now, you can begin using the library functions in your program. Here's an example:
+
+```c
+#include "libcstr.h"
+#include <stdio.h>
+
+int main() {
+    char str1[] = "Hello, World!";
+    char str2[50];
+
+    // Copy string
+    strCopy(str2, str1);
+    printf("Copied String: %s\n", str2);
+
+    // Reverse string
+    strReverse(str1);
+    printf("Reversed String: %s\n", str1);
+
+    // Check if string is a palindrome
+    if (isPalindrome(str1)) {
+        printf("The string is a palindrome.\n");
+    } else {
+        printf("The string is not a palindrome.\n");
+    }
+
+    return 0;
+}
+```
+
+## **5. Build and Run**
+Once you've added the necessary functions and logic to your program, build and run it as usual:
+
+```bash
+gcc -o myProgram myProgram.c libcstr.c
+./myProgram
+```
+
+## **6. Explore Other Functions**
+The `libcstr` library includes a variety of functions for string manipulation, such as sorting, splitting, finding substrings, checking properties, and more. To explore additional functionality, refer to the header file `libcstr.h` for the full list of available functions.
+
+#### **Functions in cStrings Library:**
 
 ## **Length and Copy Operations**
 - **`strLength(const char* str)`**: Returns the length of the string, excluding the null terminator.
