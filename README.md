@@ -1,4 +1,4 @@
-#### **cStringsLibrary: A Comprehensive String Manipulation Library in C**
+# **cStringsLibrary: A Comprehensive String Manipulation Library in C**
 
 The `cStringsLibrary` is a versatile C library designed to provide a wide range of efficient and essential string manipulation functions. From basic operations such as string length, copying, and concatenation, to advanced features like string sorting, palindrome checks, and case conversions, this library aims to simplify string handling in C. 
 
@@ -8,7 +8,7 @@ This library is designed for efficiency, readability, and ease of use, providing
 
 ![cStrings Logo](https://github.com/user-attachments/assets/d4577c64-a6b6-4cf1-b820-edb8f7c272fa)
 
-#### **How to Use the `libcstr` Library**
+# **How to Use the `libcstr` Library**
 
 Using the `libcstr` library is simple and straightforward. Follow these steps to get started:
 
@@ -72,7 +72,7 @@ gcc -o myProgram myProgram.c libcstr.c
 ## **6. Explore Other Functions**
 The `libcstr` library includes a variety of functions for string manipulation, such as sorting, splitting, finding substrings, checking properties, and more. To explore additional functionality, refer to the header file `libcstr.h` for the full list of available functions.
 
-#### **Functions in cStrings Library:**
+# **Functions in cStrings Library:**
 
 ## **Length and Copy Operations**
 - **`strLength(const char* str)`**: Returns the length of the string, excluding the null terminator.
