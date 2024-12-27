@@ -135,6 +135,8 @@ The `libcstr` library includes a variety of functions for string manipulation, s
 ## **Extra Functions**
 - **`isSpace(char c)`**: Returns `true` if the character `c` is a space.
 
+# **Connect with me!**
+
 If you found this library useful or have any questions, feel free to connect with me on the following social media platforms:
 
 Twitter: https://x.com/j4snoor_pannu
