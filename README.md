@@ -142,7 +142,9 @@ The `libcstr` library includes a variety of functions for string manipulation, s
 If you found this library useful or have any questions, feel free to connect with me on the following social media platforms:
 
 Twitter: https://x.com/j4snoor_pannu
+
 GitHub: https://github.com/jasnoorpannu
+
 LinkedIn: https://www.linkedin.com/in/jasnoorpannu/
 
 Looking forward to connecting with you!
