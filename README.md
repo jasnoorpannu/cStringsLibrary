@@ -4,7 +4,7 @@ The `cStringsLibrary` is a versatile C library designed to provide a wide range 
 
 It also includes specialized functions for working with various numeric formats (binary, octal, hexadecimal), word counting, and string joining and splitting, making it a comprehensive solution for handling strings in C projects and Competitive Programming.
 
-This library is designed for efficiency, readability, and ease of use, providing a rich set of tools for developers working with C strings. Whether you're building applications, writing algorithms, or dealing with complex string data, `cStringsLibrary` offers the functionality you need.
+This library is designed for efficiency, readability, and ease of use, providing a rich set of tools for developers working with C strings. Whether you're building applications, writing algorithms, or dealing with complex string data, `cStringsLibrary` offers the functionality you need :)
 
 <p align="center">
   <img src="https://github.com/jasnoorpannu/cStringsLibrary/blob/main/cStringsLogo.png"/>
