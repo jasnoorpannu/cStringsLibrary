@@ -80,6 +80,11 @@ The `libcstr` library includes a variety of functions for string manipulation, s
 - **`strLength(const char* str)`**: Returns the length of the string, excluding the null terminator.
 - **`strCopy(char* dest, const char* src)`**: Copies the content of the `src` string into the `dest` string.
 
+## **Character-level Helper Functions**
+- **`isAlphanumChar(char c)`**: Returns `true` if the character is alphanumeric.
+- **`charToLowercase(char c)`**: Converts a character to lowercase.
+- **`charToUppercase(char c)`**: Converts a character to uppercase.
+
 ## **isFUNCTIONS (Check Functions)**
 - **`isAlpha(const char* str)`**: Returns `true` if the string contains only alphabetic characters.
 - **`isDigit(const char* str)`**: Returns `true` if the string contains only digits.
@@ -90,8 +95,8 @@ The `libcstr` library includes a variety of functions for string manipulation, s
 - **`isHexadec(const char* str)`**: Returns `true` if the string represents a valid hexadecimal number.
 - **`isBinary(const char* str)`**: Returns `true` if the string represents a valid binary number.
 - **`isOctal(const char* str)`**: Returns `true` if the string represents a valid octal number.
-- **`isPalindrome(const char* str)`**: Returns `true` if the string is a palindrome (reads the same forwards and backwards).
-- **`isPalindromeIgnoreCase(const char* str)`**: Returns `true` if the string is a palindrome, ignoring case.
+- **`isPalindrome(const char* str)`**: Returns `true` if the string is a palindrome (reads the same forwards and backwards), ignoring non-alphanumeric characters.
+- **`isPalindromeIgnoreCase(const char* str)`**: Returns `true` if the string is a palindrome, ignoring case and non-alphanumeric characters.
 
 ## **Concatenation and Comparison**
 - **`strConcat(char* dest, const char* src)`**: Concatenates `src` to the end of `dest`.
@@ -99,7 +104,7 @@ The `libcstr` library includes a variety of functions for string manipulation, s
 - **`strCompareBool(const char* str1, const char* str2)`**: Compares two strings and returns `true` if they are identical, `false` otherwise.
 - **`strCompareIntIgnoreCase(const char* str1, const char* str2)`**: Compares two strings lexicographically ignoring case.
 - **`strCompareBoolIgnoreCase(const char* str1, const char* str2)`**: Compares two strings ignoring case, returns `true` if they are identical.
-- **`strSort(char* str)`**: Sorts the characters in the string in lexicographical order.
+- **`strSort(char* str)`**: Sorts the characters in the string in lexicographical order using quicksort.
 
 ## **Finding Functions**
 - **`strFindChar(const char* str, int ch)`**: Finds the first occurrence of the character `ch` in the string.
@@ -115,8 +120,8 @@ The `libcstr` library includes a variety of functions for string manipulation, s
 - **`strSwapcase(char* str)`**: Swaps the case of all characters in the string.
 - **`strTrimSpace(char* str)`**: Removes leading and trailing whitespace characters from the string.
 - **`strRemoveWhitespace(char* str)`**: Removes all whitespace characters from the string.
-- **`strRemoveDuplicates(char* str)`**: Removes duplicate consecutive characters from the string.
-- **`strReplace(char* str, const char* old_substr, const char* new_substr)`**: Replaces all occurrences of `old_substr` with `new_substr` in `str`.
+- **`strRemoveDuplicates(char* str)`**: Removes duplicate characters from the string (keeps first occurrence).
+- **`strReplace(char* str, const char* old_substr, const char* new_substr)`**: Replaces the first occurrence of `old_substr` with `new_substr` in `str`.
 
 ## **Substring and Joining Operations**
 - **`strSubstring(const char* str, int start, int length)`**: Returns a substring from `str` starting at `start` with the given `length`.
@@ -133,19 +138,14 @@ The `libcstr` library includes a variety of functions for string manipulation, s
 
 ## **Utility Functions**
 - **`strCountWords(const char* str)`**: Counts the number of words in the string (words are separated by spaces).
-
-## **Extra Functions**
-- **`isSpace(char c)`**: Returns `true` if the character `c` is a space.
+- **`isSpace(char c)`**: Returns `true` if the character `c` is a whitespace character (space, tab, newline, or carriage return).
 
 # **Connect with me!**
 
 If you found this library useful or have any questions, feel free to connect with me on the following social media platforms:
 
-Twitter: https://x.com/j4snoor_pannu
+Twitter: https://x.com/j4snoor
 
 GitHub: https://github.com/jasnoorpannu
 
 LinkedIn: https://www.linkedin.com/in/jasnoorpannu/
-
-
-Looking forward to connecting with you!
