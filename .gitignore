@@ -1,0 +1,35 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Compiled Executables
+*.exe
+*.out
+*.app
+test
+a.out
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.dSYM/
+*.su
+*.idb
+*.pdb
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+test.c
+test
+build/
+bin/
+obj/
+*.d
+core
+core.*
+vgcore.*
+*.log
